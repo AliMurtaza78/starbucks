@@ -257,7 +257,7 @@ header ul li a {
     color: whitesmoke;
     z-index: 100;
     position: relative;
-    margin-top: 197px;
+    margin-top: 170px;
   }
 
   .content .textBox a {
@@ -270,7 +270,6 @@ header ul li a {
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-    margin-bottom: 15px;
   }
 
   .content .imgBox {
