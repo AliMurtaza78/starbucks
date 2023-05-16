@@ -225,8 +225,7 @@ header ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 65px;
+    margin-top: 65px,0px;
   }
 
   .starbucks {
@@ -313,6 +312,7 @@ header ul li a {
     top: 42%;
     left: 30px;
     transform: translateY(-50%);
+    display: flex;
   }
   .sci li {
     list-style: none;
