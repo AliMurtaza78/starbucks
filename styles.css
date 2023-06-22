@@ -284,9 +284,16 @@ header ul li a {
     max-width: 500px;
   }
 
+  @keyframes popUpAndDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
   .thumb li img {
     width: auto;
     max-width: 80px;
+    animation: popUpAndDown 1s infinite;
   }
   .thumb li {
     list-style: none;
@@ -324,7 +331,6 @@ header ul li a {
     margin: 5px 0;
     transform: scale(0.7);
     filter: contrast();
-    animation: popping 1s infinite;
   }
 
   .sci li img {
